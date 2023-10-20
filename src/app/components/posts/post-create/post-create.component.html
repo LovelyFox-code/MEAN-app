@@ -1,0 +1,10 @@
+<form>
+<mat-card>
+    <mat-form-field class="example-full-width">
+        <mat-label>Create post here</mat-label>
+        <textarea matInput [(ngModel)]="enteredValue" name="text"></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary"
+    (click)="onAddPost()">Save Post</button>
+</mat-card>
+</form>
