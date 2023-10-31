@@ -3,3 +3,17 @@ mat-form-field,
 textarea{
     width: 100%;
 }
+mat-spinner{
+    margin: auto;
+}
+input[type="file"]{
+    visibility: hidden;
+}
+.image-preview{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+.image-preview img{
+    width: 100%;
+}
